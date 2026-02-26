@@ -13,6 +13,7 @@ export function searchStock(identifier) {
 }
 
 
+
 export function filterStocksByPrice(givenPrice, above) {
     if (above === "true") {
         let abovePrices = stockMarket.stocks.filter((Price) => Price.currentPrice > givenPrice)
